@@ -1,0 +1,14 @@
+.nav-link {
+    color: #9b9b9b !important;
+    font-weight: normal !important;
+}
+
+.nav-link.active {
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+.centered {
+    justify-content: center !important;
+}
+

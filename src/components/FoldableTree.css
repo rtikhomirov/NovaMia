@@ -1,0 +1,19 @@
+#mainUL {
+    float: left;
+    margin: 0px;
+}
+
+#container {
+    border: 1px solid #000000;
+    float: left;
+}
+
+.ulContainer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.liItems{
+    line-height: 24px;
+}

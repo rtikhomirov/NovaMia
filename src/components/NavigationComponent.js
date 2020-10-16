@@ -1,37 +1,24 @@
 import React from 'react';
-import { Navbar, Nav, NavItem} from 'reactstrap';
-import {NavLink} from "react-router-dom";
 import './NavigationComponent.css';
 
 const NavigationComponent = (props) => {
     return (
         <React.Fragment>
-            <Navbar dark expand='md'>
-                <div className="container centered">
-                    <Nav navbar>
-                        <NavItem>
-                            <NavLink className="nav-link"  to='/imagesCollection'> Images collection</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink className="nav-link" to='/formValidation'> Form validation</NavLink>
-                        </NavItem>
-                    </Nav>
-                </div>
-            </Navbar>
-            <nav className="navbar navbar-expand-md dark">
-                <ul className="navbar-nav">
+            <nav className="navbar navbar-expand-md bg-dark navbar-dark">
+                <ul className="navbar-nav container centered">
                     <li className="nav-item">
-                        <a className="nav-link" href="/foldableTree">Link 1</a>
+                        <a className="nav-link" href="/tasks">Cards</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/cards">Link 2</a>
+                        <a className="nav-link" href="/foldableTree">Foldable tree</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="/spyral">Spyral</a>
                     </li>
                 </ul>
-
             </nav>
         </React.Fragment>
     );
 };
 
 export default NavigationComponent;
-
